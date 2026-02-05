@@ -1,12 +1,14 @@
 {
   "name": "edina-nextjs",
   "version": "1.0.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -29,5 +31,8 @@
     "sass": "^1.56.1",
     "slick-carousel": "^1.8.1",
     "swr": "^2.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
