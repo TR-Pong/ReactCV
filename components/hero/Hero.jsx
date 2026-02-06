@@ -3,8 +3,8 @@ import Social from "../Social";
 import { Typewriter } from 'react-simple-typewriter'
 import Image from "next/image";
 const heroContent = {
-  shapeImage: "/img/hero/profile.jpg",
-  heroImage: "/img/hero/profile.jpg",
+  shapeImage: "./img/hero/profile.jpg",
+  heroImage: "./img/hero/profile.jpg",
   name: "Tanakhom Rattanasrisawat",
   description: `I'm a Front-end Developer And Game Developer based In Thailand, over 7 years of professional experience.`,
 };
@@ -72,7 +72,7 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="/img/Tanakhom CV.pdf" download className="color">
+            <a href="./img/Tanakhom CV.pdf" download className="color">
               Download CV
             </a>
           </div>
