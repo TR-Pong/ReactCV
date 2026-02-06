@@ -6,9 +6,9 @@ import Image from "next/image";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
-  name: "Nelson",
-  email: "support@gmail.com",
-  emailRef: "mailto:ib-themes21@gmail.com",
+  name: "Tanakhom",
+  email: "Click to email",
+  emailRef: "mailto:Tanakhom.rattana@hotmail.com",
 };
 
 const HeaderHorizontal = () => {

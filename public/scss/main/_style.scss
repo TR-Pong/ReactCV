@@ -674,6 +674,10 @@ body.dark .loader_line:after {
   font-weight: 700;
   line-height: 1.2;
   margin: 10px 0 12px;
+  min-height: 61px;
+  @media screen and (max-width: 575px) {
+    min-height: 45px;
+  }
 }
 .edina_tm_hero .extra {
   position: relative;
