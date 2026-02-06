@@ -1,14 +1,14 @@
 {
   "name": "edina-nextjs",
   "version": "1.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d build"
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
