@@ -27,6 +27,9 @@ const HeaderHorizontal = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
+    const isProduction = process.env.NODE_ENV === "production";
+    console.log(isProduction);
+    
   }, []);
 
   return (
