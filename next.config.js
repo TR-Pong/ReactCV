@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
+const isProduction = process.env.NODE_ENV = "production";
 const nextConfig = {
-  basePath: process.env.NODE_ENV === "production" ? "/ReactCV" : "",
+  basePath: isProduction ? "/ReactCV" : "",
   output: 'export',
   trailingSlash: true,
   images: {

@@ -72,7 +72,7 @@ const EdinaPreview = () => {
           width={30}
           height={30}
           className="logo"
-          src="${basePath}/img/intro/react.png"
+          src="/img/intro/react.png"
           alt="react nextjs"
         />
       </span>
@@ -84,7 +84,7 @@ const EdinaPreview = () => {
             <Image
               width={92}
               height={37}
-              src="${basePath}/img/intro/logo.png"
+              src="/img/intro/logo.png"
               alt="brand"
             />
             <p>Personal Portfolio React NextJS Template + RTL</p>

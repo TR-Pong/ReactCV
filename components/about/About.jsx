@@ -64,7 +64,7 @@ const About = () => {
               <Image
                 width={445}
                 height={599}
-                src="${basePath}/img/thumbs/26-35.jpg"
+                src="/img/thumbs/26-35.jpg"
                 alt="thumb"
               />
 
@@ -109,7 +109,7 @@ const About = () => {
             <Image
               width={45}
               height={45}
-              src="${basePath}/img/svg/cancel.svg"
+              src="/img/svg/cancel.svg"
               alt="close icon"
             />
           </button>

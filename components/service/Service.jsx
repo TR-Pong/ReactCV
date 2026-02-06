@@ -61,7 +61,7 @@ const Service = () => {
             <Image
               width={45}
               height={45}
-              src="${basePath}/img/svg/cancel.svg"
+              src="/img/svg/cancel.svg"
               alt="close icon"
             />
           </button>
