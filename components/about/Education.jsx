@@ -10,7 +10,7 @@ const Education = () => {
             <Image
               width={19}
               height={19}
-              src="${basePath}/img/about/briefcase.png"
+              src="/img/about/briefcase.png"
               alt="icon"
             />
           </div>

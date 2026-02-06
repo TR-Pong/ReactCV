@@ -11,7 +11,7 @@ const Video = () => {
             className="image jarallax"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "${basePath}/img/video/1.jpg"
+                process.env.PUBLIC_URL + "/img/video/1.jpg"
               })`,
             }}
           ></div>
