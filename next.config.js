@@ -2,7 +2,7 @@
 const isProduction = process.env.NODE_ENV === "production";
 const nextConfig = {
   basePath: isProduction ? "/ReactCV" : "",
-  assetPrefix: "/ReactCV/",
+  assetPrefix: isProduction ? "/ReactCV/" : "",
   output: 'export',
   trailingSlash: true,
   images: {
