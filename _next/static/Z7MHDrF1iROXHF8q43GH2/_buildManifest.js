@@ -1,24 +1,19 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/d56b827730283439.js"
+    "static/chunks/75a782ef22ff8696.js"
   ],
   "/404": [
-    "static/chunks/890a7d848504a470.js"
+    "static/chunks/611787fb814dd030.js"
   ],
   "/_error": [
-    "static/chunks/12b915f630018b3b.js"
+    "static/chunks/92380a2ca90877b5.js"
   ],
   "/home-horizontal": [
-    "static/chunks/16a97d09932833a7.js"
+    "static/chunks/2f9ee9033ab98987.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [
-      {
-        "source": "/ReactCV//_next/:path+",
-        "destination": "/_next/:path+"
-      }
-    ],
+    "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
