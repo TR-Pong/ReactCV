@@ -5,6 +5,7 @@ import Experience from "../Experience";
 import Education from "../Education";
 
 const ModalContent = () => {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   return (
     <>
       <div className="row">
@@ -12,7 +13,7 @@ const ModalContent = () => {
           <h3>Personal Info</h3>
           <PersonalInfo />
           <div className="edina_tm_button">
-            <a href="/img/sample.pdf" download className="color">
+            <a href={`${basePath}/img/sample.pdf`} download className="color">
               Download CV
             </a>
           </div>

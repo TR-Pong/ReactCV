@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    img: "/img/news/4.jpg",
+    img: "./img/news/4.jpg",
     title: "Frozo Immobile",
     date: "April 07,2021",
     meta: "Design",
@@ -46,7 +46,7 @@ module.exports = [
   },
   {
     id: 2,
-    img: "/img/news/2.jpg",
+    img: "./img/news/2.jpg",
     title: "Mosby Lavette",
     date: "March 25,2022",
     meta: "Branding",
@@ -97,7 +97,7 @@ module.exports = [
   },
   {
     id: 3,
-    img: "/img/news/3.jpg",
+    img: "./img/news/3.jpg",
     title: "Jacuba Bamba",
     date: "May 01,2022",
     meta: "Lifestyle",
@@ -156,7 +156,7 @@ module.exports = [
   },
   {
     id: 4,
-    img: "/img/news/1.jpg",
+    img: "./img/news/1.jpg",
     title: "Dostie Memorie",
     date: "July 07,2021",
     meta: "Travel",

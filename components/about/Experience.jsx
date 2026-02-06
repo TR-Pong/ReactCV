@@ -10,7 +10,7 @@ const Experience = () => {
             <Image
               width={19}
               height={19}
-              src="/img/about/briefcase.png"
+              src="./img/about/briefcase.png"
               alt="icon"
             />
             <i className="fa fa-briefcase"></i>
