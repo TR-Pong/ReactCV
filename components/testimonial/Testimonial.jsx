@@ -59,7 +59,7 @@ export default function Testimonial() {
                   width={60}
                   height={60}
                   className="svg"
-                  src="/img/svg/quote.svg"
+                  src="${basePath}/img/svg/quote.svg"
                   alt="quote"
                 />
               </div>

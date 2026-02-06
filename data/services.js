@@ -1,13 +1,13 @@
 module.exports = [
   {
     id: 1,
-    imgIcon: "/img/svg/1.svg",
+    imgIcon: "${basePath}/img/svg/1.svg",
     title: (
       <>
         Responsive Website
       </>
     ),
-    popupImg: "/img/service/1.png",
+    popupImg: "${basePath}/img/service/1.png",
     popupTitle: `Responsive Website with Modern UI/UX Design`,
     firstDescriptionText: (
       <>
@@ -26,13 +26,13 @@ module.exports = [
   },
   {
     id: 2,
-    imgIcon: "/img/svg/2.svg",
+    imgIcon: "${basePath}/img/svg/2.svg",
     title: (
       <>
         Game Application
       </>
     ),
-    popupImg: "/img/service/2.png",
+    popupImg: "${basePath}/img/service/2.png",
     popupTitle: `Game Application Development Using Unity & Cocos Creator`,
     firstDescriptionText: (
       <>

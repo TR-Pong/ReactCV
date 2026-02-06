@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     tooltipId: "Game App",
-    portfolioImage: "/img/portfolio/1.png",
+    portfolioImage: "${basePath}/img/portfolio/1.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.tigongame.minizoomerge&hl=th",
     title: "Mini Zoo Merge Game",
     meta: "Game App",
@@ -20,7 +20,7 @@ module.exports = [
   {
     id: 2,
     tooltipId: "Game App",
-    portfolioImage: "/img/portfolio/2.png",
+    portfolioImage: "${basePath}/img/portfolio/2.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.tigongame.pokerdices2&hl=th",
     title: "Poker Dices 3D Game",
     meta: "Game App",
@@ -38,7 +38,7 @@ module.exports = [
   {
     id: 3,
     tooltipId: "Game App",
-    portfolioImage: "/img/portfolio/1.png",
+    portfolioImage: "${basePath}/img/portfolio/1.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.tigongame.minizoomerge&hl=th",
     title: "Mini Zoo Merge Game",
     meta: "Game App",
@@ -56,7 +56,7 @@ module.exports = [
   {
     id: 4,
     tooltipId: "Game App",
-    portfolioImage: "/img/portfolio/2.png",
+    portfolioImage: "${basePath}/img/portfolio/2.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.tigongame.pokerdices2&hl=th",
     title: "Poker Dices 3D Game",
     meta: "Game App",

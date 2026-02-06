@@ -102,7 +102,7 @@ const Portfolio = () => {
             <Image
               width={45}
               height={45}
-              src="/img/svg/cancel.svg"
+              src="${basePath}/img/svg/cancel.svg"
               alt="close icon"
             />
           </button>
