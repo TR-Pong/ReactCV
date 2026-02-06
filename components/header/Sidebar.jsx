@@ -77,7 +77,7 @@ const Sidebar = () => {
                           width={18}
                           height={18}
                           className="svg custom"
-                          src={`img/svg/${val.icon}.svg`}
+                          src={`./img/svg/${val.icon}.svg`}
                           alt="icon"
                         />
                         {val.itemName}
